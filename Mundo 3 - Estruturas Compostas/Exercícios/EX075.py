@@ -6,7 +6,7 @@
 # Declarando a tupla
 nums = tuple()
 
-# Lendo os quatro números e adcionando na tupla
+# Lendo os quatros números e adcionando na tupla
 for c in range(1, 5):
     n = int(input(f'Digite o {c}º número: '))
     nums += (n,)
