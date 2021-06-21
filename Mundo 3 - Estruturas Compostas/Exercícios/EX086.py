@@ -2,16 +2,15 @@
 
 matriz = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
 
-# Pop matriz; First columns 1-3 of row L
+# Pop matriz; First line l - column c
 
 for l in range(0, 3):
     for c in range(0, 3):
-        x = int(input(f'Digite um número para a posição [{l+1}, {c+1}]: '))
-        matriz[l][c] = x
+        matriz[l][c] = (input(f'Digite um número para a posição [{l+1}, {c+1}]: '))
 
-# Display matrix
+# Display matriz
 
-for n in matriz:
-    for i in range(0,3):
-        print(f'[ {n[i]:^3} ]', end=' ')
+for l in range(0,3):
+    for c in range(0,3):
+        print(f'[ {matriz[l][c]:^5} ]', end='')
     print()
