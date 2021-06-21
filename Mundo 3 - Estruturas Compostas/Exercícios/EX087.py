@@ -20,7 +20,7 @@ for l in range(0, 3):
         if c == 2:
             stc += n 
 
-        # second line highest value
+        # Second line highest value
         if l == 1:
             if n > msl:
                 msl = n
