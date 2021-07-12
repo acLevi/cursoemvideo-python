@@ -1,2 +1,2 @@
-# python-cursoemvideo
- Repositório do curso em Python do Curso em Vídeo.
+# python
+ Repositório de exercícios e projetos em Python
